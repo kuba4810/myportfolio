@@ -1,0 +1,21 @@
+Umiejêtnoœci
+------------
+
+Graphic Design:
+	GIMP
+Front-End:
+	HTML,CSS,JS,REACT
+Back-End:
+	NodeJs, PostgreSql
+
+Technologie:
+GIT, Visual Studio Code, IntelIj, DigitalOcean, Nginx
+
+O mnie
+-----------
+
+Zdjêcie w górach
+Krótki opis mojej osoby
+Edukacja
+Zainteresowania
+
