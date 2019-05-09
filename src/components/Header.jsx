@@ -2,8 +2,8 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import history from './history';
 
-import {connect} from 'react-redux'
-import {urlChanged} from '../actions/url'
+import { connect } from 'react-redux'
+import { urlChanged } from '../actions/url'
 
 
 class Head extends React.Component {
@@ -114,7 +114,7 @@ class Head extends React.Component {
                 case 'cv':
                     this.changeFromCV();
                     linkId = 'cv'
-                    myTimeout = this.startTimeout(1000,url,linkId)
+                    myTimeout = this.startTimeout(1000, url, linkId)
                     break;
 
                 case 'portfolio':
@@ -156,8 +156,10 @@ class Head extends React.Component {
                 console.log("Next url: ", this.state.currentUrl);
             });
 
-            this.refs.hambContainer.classList.toggle("change");
-            this.refs.menuList.classList.toggle("menuListShown");
+            if (window.innreWidth < 1000) {
+                this.refs.hambContainer.classList.toggle("change");
+                this.refs.menuList.classList.toggle("menuListShown");
+            }
         }
 
     }
@@ -176,7 +178,7 @@ class Head extends React.Component {
 
     }
 
-    changeFromCV(){
+    changeFromCV() {
         const cv = document.querySelector('.cvContainer');
         cv.classList.remove('fadeIn');
         cv.classList.add('fadeOut');
@@ -227,8 +229,8 @@ class Head extends React.Component {
         descText.classList.remove("slideInUp");
         descText.classList.add("fadeOutLeft");
 
-         aboutSection.classList.remove("slideInUp");
-         aboutSection.classList.add("fadeOutLeft");
+        aboutSection.classList.remove("slideInUp");
+        aboutSection.classList.add("fadeOutLeft");
 
 
         // edu.classList.add("fadeOutLeft");
@@ -307,15 +309,15 @@ class Head extends React.Component {
     }
 }
 
-const mapStateToProps = (state) =>{
+const mapStateToProps = (state) => {
     return {
-        currentUrl : state.pages.currentUrl
+        currentUrl: state.pages.currentUrl
     }
 }
 
-const mapDispatchToProps = {urlChanged}
+const mapDispatchToProps = { urlChanged }
 
 
-const Header = connect(mapStateToProps,mapDispatchToProps)(Head)
+const Header = connect(mapStateToProps, mapDispatchToProps)(Head)
 
 export default Header;
