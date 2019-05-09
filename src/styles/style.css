@@ -517,6 +517,10 @@ justify-content: center;
     animation-delay: .2s;
 }
 
+.aboutSection{
+    animation-delay: .7s;
+}
+
 .descriptionTitle{
     width:100%;
     margin:0 auto 0px auto;

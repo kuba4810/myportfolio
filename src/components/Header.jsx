@@ -212,8 +212,8 @@ class Head extends React.Component {
         const descTitle = document.querySelector(".descriptionTitle");
         const descText = document.querySelector(".descriptionText");
         const scBreaker = document.querySelector(".sectionBreaker");
-        const edu = document.querySelector(".education");
-        const int = document.querySelector(".interesting");
+        const aboutSection = document.querySelector(".aboutSection");
+
 
         abImage.classList.remove("fadeIn");
         abImage.classList.add("fadeOutLeft");
@@ -224,8 +224,8 @@ class Head extends React.Component {
         descText.classList.remove("slideInUp");
         descText.classList.add("fadeOutLeft");
 
-        // scBreaker.classList.remove("fadeIn");
-        // scBreaker.classList.add("fadeOutLeft");
+         aboutSection.classList.remove("fadeIn");
+         aboutSection.classList.add("fadeOutLeft");
 
 
         // edu.classList.add("fadeOutLeft");

@@ -1,11 +1,12 @@
 {
+  "homepage" : "https://kuba4810.github.io/myportfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://myname.github.io/myapp",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4",
+    "gh-pages": "^2.0.1",
     "history": "^4.7.2",
     "react": "^16.6.3",
     "react-addons-css-transition-group": "^15.6.2",
@@ -19,6 +20,8 @@
     "redux": "^4.0.1"
   },
   "scripts": {
+    "predeploy" :"npm run build",
+    "deploy" : "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

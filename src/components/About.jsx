@@ -45,15 +45,15 @@ class About extends React.Component {
 
           <div className="row">
 
-            <div className="col-lg-11 mx-auto  p-2 mt-5 aboutSection">
-              <h2 className="text-center">
+            <div className="col-lg-11 mx-auto  p-2 mt-5 aboutSection animated fadeIn">
+              <h2 className="text-center w-100 p-2 bg-primary">
                 Edukacja
               </h2>
 
-              <ScrollAnimation
+              {/* <ScrollAnimation
                 animateIn="fadeInDown"
                 duration=".7s"
-                animateOnce="true">
+                animateOnce="true"> */}
                 <div className="row">
 
                   <div className="col-11 mx-auto mt-3 animated">
@@ -70,12 +70,12 @@ class About extends React.Component {
 
 
                 </div>
-              </ScrollAnimation>
+              {/* </ScrollAnimation> */}
 
-              <ScrollAnimation
+              {/* <ScrollAnimation
                 animateIn="fadeInUp"
                 duration=".7s"
-                animateOnce="true">
+                animateOnce="true"> */}
 
 
                 <div className="row mt-3">
@@ -89,7 +89,7 @@ class About extends React.Component {
                             </div>
                   </div>
                 </div>
-              </ScrollAnimation>
+              {/* </ScrollAnimation> */}
 
 
              
@@ -105,7 +105,7 @@ class About extends React.Component {
           <div className="row">
 
             <div className="col-lg-11 mx-auto p-2  aboutSection">
-              <h3 className="text-center">
+              <h3 className="text-center w-100 p-2 bg-primary">
                 Zainteresowania
 
               </h3>
@@ -120,31 +120,31 @@ class About extends React.Component {
                      <div className="mb-4">
                      <i className="fas fa-check text-primary mr-2"></i>
                       <b className="text-primary">Programowanie</b>
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus tempore deleniti eos architecto placeat, neque qui ullam animi labore porro delectus, ipsa fugit id nihil vel vero eum facere adipisci.</p>
+                      <p> Programowanie to dziedzina którę postanowiłem poświęcić życie zawodowe. Praca którą dla mnie będzie jest również przyjemnością. Cieszy mnie każdy "kawałek kodu" który napisałem. </p>
                      </div>
 
                      <div className="mb-4">
                      <i className="fas fa-check text-primary mr-2"></i>
                       <b className="text-primary">Astrofizyka</b>
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus tempore deleniti eos architecto placeat, neque qui ullam animi labore porro delectus, ipsa fugit id nihil vel vero eum facere adipisci.</p>
+                      <p>Pasjonuje mnie odkąd pamiętam, od kiedy nauczyłem się czytać szukałem w encyklopediach i bibliotekach wszystkiego co ma związek z astronomią. Teraz mam dostęp do wiedzy z wielu źródeł i wciąż ją pogłębiam.</p>
                      </div>
 
                      <div className="mb-4">
                      <i className="fas fa-check text-primary mr-2"></i>
                       <b className="text-primary">Rower</b>
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus tempore deleniti eos architecto placeat, neque qui ullam animi labore porro delectus, ipsa fugit id nihil vel vero eum facere adipisci.</p>
+                      <p> Na rowerze czuje się wolny jak ptak. Czasem jeżdże sprintem kilka kilometrów a innym razem nie ma mnie przez cały dzień. Wspaniały sposób aktywnego spędzania czasu. </p>
                      </div>
 
                      <div className="mb-4">
                      <i className="fas fa-check text-primary mr-2"></i>
                       <b className="text-primary">Archeologia</b>
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus tempore deleniti eos architecto placeat, neque qui ullam animi labore porro delectus, ipsa fugit id nihil vel vero eum facere adipisci.</p>
+                      <p> Podobnie jak z astrofizyką lecz zainteresowanie pojawiło się trochę później. Szczególnie ciągnie mnie do prehistorii i starożytności. </p>
                      </div>
 
                      <div className="mb-4">
                      <i className="fas fa-check text-primary mr-2"></i>
                       <b className="text-primary">Piłka nożna</b>
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus tempore deleniti eos architecto placeat, neque qui ullam animi labore porro delectus, ipsa fugit id nihil vel vero eum facere adipisci.</p>
+                      <p>Dobrego meczu sobię nie odmówie. Gram amatorsko kiedy mam ochotę i okazję. Gram głównie na bramce.</p>
                      </div>
 
                     </div>
