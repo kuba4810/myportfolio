@@ -1,8 +1,9 @@
 html {
     scroll-behavior: smooth;
-  }
+}
+
 body {
-   
+
     background-image: url("../images/mainBackground.jpeg");
     background-size: cover;
     background-attachment: fixed;
@@ -93,16 +94,16 @@ body {
     cursor: pointer;
 }
 
-.menuList div{
-    background:none;
+.menuList div {
+    background: none;
 
     color: cornsilk;
     font-size: 25px;
     transition: .4s ease;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-.menuList div:hover{
+.menuList div:hover {
     color: #1aa3ff;
 }
 
@@ -110,7 +111,7 @@ body {
 
 .activeLink {
     border-bottom: 2px solid #1aa3ff;
-  
+
 }
 
 .menuListItem a:hover {
@@ -121,11 +122,12 @@ body {
     clear: both;
 }
 
-.home{
-    overflow:hidden;
-    height:110vh;
-   
+.home {
+    overflow: hidden;
+    height: 110vh;
+
 }
+
 .home p {
     /* margin: 60px auto; */
     width: 100%;
@@ -149,10 +151,10 @@ body {
 
 
 
-.cvLink {   
+.cvLink {
     text-align: center;
     margin: 0 auto;
-    width:400px;
+    width: 400px;
     top: 60%;
     border: 2px solid cornsilk;
     color: cornsilk;
@@ -166,15 +168,17 @@ body {
 }
 
 .cvLink:hover {
-    background-color: rgba(255, 255, 255, 0.5);    
+    background-color: rgba(255, 255, 255, 0.5);
     letter-spacing: 2px;
 
 }
-.cvLink a{
-    color : white;
+
+.cvLink a {
+    color: white;
     text-decoration: none;
 }
-.cvLink:hover a{
+
+.cvLink:hover a {
     color: #262626;
 }
 
@@ -308,7 +312,7 @@ body {
     padding: 10px;
     font-size: 20px;
     height: 219px !important;
-    
+
 
 }
 
@@ -322,7 +326,7 @@ body {
     height: 50px;
     transition: .4s ease;
     cursor: pointer;
-    margin:0;
+    margin: 0;
 }
 
 
@@ -383,7 +387,7 @@ body {
 
 .skillContainer {
     overflow: hidden;
-    height:100vh;
+    min-height: 100vh;
 }
 
 .skillContainerTitle {
@@ -410,7 +414,9 @@ body {
     width: 80%;
 }
 
-.grDesignContainer, .frontEndContainer, .backEndContainer{
+.grDesignContainer,
+.frontEndContainer,
+.backEndContainer {
     animation-delay: .3s;
 }
 
@@ -421,7 +427,7 @@ body {
     height: 300px;
     /* border-radius: 10px; */
     overflow: hidden;
-    
+
 }
 
 
@@ -486,159 +492,164 @@ body {
 
 /* ABOUT */
 /* --------------------------------------------------------------------------------------- */
-.aboutContainer{
-   
-}
+.aboutContainer {}
 
-.aboutMeParagraph{
-display:flex;
-justify-content: center;
+.aboutMeParagraph {
+    display: flex;
+    justify-content: center;
 
 
 }
+
 .aboutTitle {
     font-size: 100px;
     color: white;
     width: 50%;
     margin: 0 auto;
     text-align: center;
-    
+
 
 }
 
 .aboutImage img {
-    width:100%;
-    max-height:400px;
+    width: 100%;
+    max-height: 400px;
     /* border-radius: 5px; */
     margin-top: 100px;
 }
 
-.aboutImage{
+.aboutImage {
     animation-delay: .2s;
 }
 
-.aboutSection{
+.aboutSection {
     animation-delay: .7s;
 }
 
-.descriptionTitle{
-    width:100%;
-    margin:0 auto 0px auto;
+.descriptionTitle {
+    width: 100%;
+    margin: 0 auto 0px auto;
     padding: 8px 0;
     color: #262626;
-    background-color: rgba(26, 163, 255,0.7);
+    background-color: rgba(26, 163, 255, 0.7);
     /* border-radius: 5px; */
-    text-align:center;
+    text-align: center;
     animation-delay: .4s;
     /* box-shadow: 0px 5px 5px #262626; */
 }
-.aboutMeDescription{
-    margin-top:100px;
-    text-align:left;
+
+.aboutMeDescription {
+    margin-top: 100px;
+    text-align: left;
     color: cornsilk;
     font-size: 25px;
-    
-  
+
+
 }
 
-.descriptionText{
+.descriptionText {
     animation-delay: .6s;
     /* border-radius : 5px; */
-    background-color: rgba(255,255,255,0.7);
-    height:348px;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 348px;
 }
 
-.sectionBreakerRow{
-    display:flex;
+.sectionBreakerRow {
+    display: flex;
     justify-content: center;
 }
-.sectionBreaker{
+
+.sectionBreaker {
     position: relative;
-    left:4%;
-    width:92%;
-    padding:10px 0;
-    background-color: rgba(0, 153, 204,0.8);
+    left: 4%;
+    width: 92%;
+    padding: 10px 0;
+    background-color: rgba(0, 153, 204, 0.8);
     color: cornsilk;
-    text-align:center;
+    text-align: center;
     border-radius: 5px;
     margin-top: 80px;
     margin-bottom: 80px;
     font-size: 25px;
     animation-delay: .8s;
-    cursor:pointer;
-    transition:.4s ease;
+    cursor: pointer;
+    transition: .4s ease;
 
 }
 
 
-.sectionBreaker i{
+.sectionBreaker i {
     transform: rotateX(90deg);
-     opacity:0; 
+    opacity: 0;
     transition: .4s ease;
 }
-.sectionBreaker:hover{
-    background-color: rgba(0,100,150,0.8);
-  
 
-} 
+.sectionBreaker:hover {
+    background-color: rgba(0, 100, 150, 0.8);
 
-.sectionBreaker:hover i{
-    opacity:1;
+
+}
+
+.sectionBreaker:hover i {
+    opacity: 1;
     transform: rotateX(0deg);
 }
-.interesingSign{
-    margin-top: 10px;
-   }
 
-.aboutSection{
-   
+.interesingSign {
+    margin-top: 10px;
+}
+
+.aboutSection {
+
     font-size: 20px;
     margin-bottom: 100px;
     /* opacity:0; */
-  
+
 }
 
 
 
-.aboutSection{
-    background-color: rgba(255,255,255,0.7);
+.aboutSection {
+    background-color: rgba(255, 255, 255, 0.7);
     color: #262626;
     /* display:flex;
     justify-content: center; */
     /* border-radius : 10px; */
-    padding:0;
-   
+    padding: 0;
+
 }
 
 
-.interesting{
+.interesting {
     color: #262626;
-    background-color: rgba(226,226,226,0.7);
+    background-color: rgba(226, 226, 226, 0.7);
 }
 
 /* CONTACT */
 /* ------------------------------------------------------------ */
 
-.contactContainer{
-    height:100vh;
+.contactContainer {
+    height: 100vh;
 }
 
-.contactContainer .card{
-    border-radius : 10px;
-    min-height : 350px !important;
-    background-color: rgb(255,255,255,0.6);
+.contactContainer .card {
+    border-radius: 10px;
+    min-height: 350px !important;
+    background-color: rgb(255, 255, 255, 0.6);
 }
 
-.contactContainer .card .card-header{
-    min-height : 73px;
+.contactContainer .card .card-header {
+    min-height: 73px;
 }
 
-.contactTitle .card-body{
+.contactTitle .card-body {
     font-size: 20px;
 }
-.contactTitle .row h1{
+
+.contactTitle .row h1 {
     /* text-align: center; */
 }
+
 /* .contactTitle 
 
 {
@@ -649,60 +660,62 @@ justify-content: center;
 
 .contactTitle .jumbotron,
 .contactTitle .jumbotron .row,
-.contactTitle .jumbotron .row .col{
-    background-color: rgb(255,255,255,0);
+.contactTitle .jumbotron .row .col {
+    background-color: rgb(255, 255, 255, 0);
 }
 
-.contactTitle ul, 
-.contactContainer ul{
+.contactTitle ul,
+.contactContainer ul {
     list-style: none;
 }
 
 /* CV */
 /* ------------------------------------------------------------ */
 
-.cvContainer .mainCvRow{
-    min-height:100vh;
+.cvContainer .mainCvRow {
+    min-height: 100vh;
 }
 
-.cvLeft{
+.cvLeft {
     background-color: #161616;
 }
 
-.cvAvatar{
-    background-image : url('../images/cv_avatar.jpg');
-    background-size:cover;
+.cvAvatar {
+    background-image: url('../images/cv_avatar.jpg');
+    background-size: cover;
     background-position: center;
-    height:270px;
-    width:100%;
-    margin:0;
+    height: 270px;
+    width: 100%;
+    margin: 0;
 }
 
-.cvAbout{
-    padding-top:80px;
-    color:black;
+.cvAbout {
+    padding-top: 80px;
+    color: black;
 }
-.yellowDiv{
+
+.yellowDiv {
     position: absolute;
     background-color: yellow;
-    width:50%;
-    left:25%;
-    height:20px;
-    top:47px;
-    z-index:1;
+    width: 50%;
+    left: 25%;
+    height: 20px;
+    top: 47px;
+    z-index: 1;
 }
 
-.title{
-    height:130px;
+.title {
+    height: 130px;
 }
 
-.cvTitle{
+.cvTitle {
     font-size: 60px;
     position: absolute;
-    width:50%;
-    left:25%;
-    z-index : 2;
+    width: 50%;
+    left: 25%;
+    z-index: 2;
 }
+
 /* ------------------------------------------------------------ */
 
 /* ------------------------------------------------------------ */
@@ -750,6 +763,8 @@ justify-content: center;
     .menuList {
         height: 60px
     }
+
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -806,6 +821,85 @@ justify-content: center;
         margin: 5px;
     }
 
+    /* --------------------- */
+    .cvLink {
+        width: 350px;
+        font-size: 30px;
+    }
+
+    .cvTitle {
+        font-size: 33px;
+        margin-bottom: 5px !important;
+    }
+
+    .yellowDiv {
+        top: 30px;
+        height: 10px;
+    }
+
+    .title {
+        height: 60px;
+    }
+
+    .cvPersonalDetails {
+        margin: 0 !important;
+
+    }
+
+    .cvPersonalDetails p {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cvExperience, .cvEducation {
+        padding-left: 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .cvExperience h1, .cvEducation h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .cvExperience h3, .cvEducation h3 {
+        font-size: 20px;
+        text-align: center;
+    
+    }
+
+    .cvExperience p, .cvEducation p{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .aboutImage img {
+        margin-top:10px;
+    }
+
+    .aboutMeDescription{
+        margin-top: 10px;
+    }
+    .descriptionText {
+        font-size: 20px;
+    }
+
+    .aboutSection .row .col-11{
+        font-size: 18px;
+    }
+
+    .contactContainer{
+        padding-top: 10 !important;
+    }
+    .contactTitle{
+        margin-top: 10px !important;
+    }
+    .contactTitle .card-body{
+        font-size: 18px;
+    }
 
 }
 

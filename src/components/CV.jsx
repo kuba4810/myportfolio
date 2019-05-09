@@ -8,7 +8,7 @@ class CV extends Component {
            <div className="row mainCvRow mt-5 mb-5">
                 <div className="col-lg-1"></div>
 
-                <div className="col-lg-3 p-0 cvLeft">
+                <div className="col-lg-3 order-sm-2 p-0 cvLeft">
                     
                     {/* Image */}
                     <div className="cvAvatar">
@@ -73,7 +73,7 @@ class CV extends Component {
 
                 </div>
                 
-                <div className="col-lg-8 bg-light position-relative">
+                <div className="col-lg-8 order-sm-1 bg-light position-relative">
                     <div className="title">
                     
                     <h1 className="text-dark text-center font-weight-bold mt-2 cvTitle">

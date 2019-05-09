@@ -46,7 +46,7 @@ class About extends React.Component {
           <div className="row">
 
             
-            <div className="col-lg-11 mx-auto mt-5 aboutSection animated slideInUp">
+            <div className="col-11 mx-auto mt-5 aboutSection animated slideInUp">
               
             <h2 className="text-center w-100 p-2 bg-primary">
                 Edukacja
@@ -105,7 +105,7 @@ class About extends React.Component {
           {/* Row */}
           <div className="row">
 
-            <div className="col-lg-11 mx-auto aboutSection animated slideInUp">
+            <div className="col-11 mx-auto aboutSection animated slideInUp">
               <h3 className="text-center w-100 p-2 bg-primary">
                 Zainteresowania
 
