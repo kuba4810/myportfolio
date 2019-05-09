@@ -155,6 +155,9 @@ class Head extends React.Component {
             this.setState({ currentUrl: e.target.id }, () => {
                 console.log("Next url: ", this.state.currentUrl);
             });
+
+            this.refs.hambContainer.classList.toggle("change");
+            this.refs.menuList.classList.toggle("menuListShown");
         }
 
     }

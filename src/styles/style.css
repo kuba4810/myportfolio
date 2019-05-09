@@ -822,6 +822,11 @@ body {
     }
 
     /* --------------------- */
+    
+
+}
+
+@media only screen and (max-width: 800px){
     .cvLink {
         width: 350px;
         font-size: 30px;
@@ -901,6 +906,10 @@ body {
         font-size: 18px;
     }
 
+    .pt-item {
+        width: 95%;
+        margin-left: 2.5% !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {
