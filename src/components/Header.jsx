@@ -224,7 +224,7 @@ class Head extends React.Component {
         descText.classList.remove("slideInUp");
         descText.classList.add("fadeOutLeft");
 
-         aboutSection.classList.remove("fadeIn");
+         aboutSection.classList.remove("slideInUp");
          aboutSection.classList.add("fadeOutLeft");
 
 

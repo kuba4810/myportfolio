@@ -18,12 +18,12 @@ class About extends React.Component {
           <div className="row aboutMeParagraph">
 
             {/* Col 4 */}
-            <div className="col-lg-4 aboutImage animated fadeIn">
-              <img src={require('../images/aboutImage3.jpg')} alt="" />
+            <div className="col-lg-3 aboutImage animated fadeIn">
+              <img src={require('../images/cv_avatar.jpg')} alt="" />
             </div>
 
             {/* Col 7 */}
-            <div className="col-lg-7 aboutMeDescription">
+            <div className="col-lg-8 aboutMeDescription">
 
               <div className="descriptionTitle animated slideInDown">
                 Kilka słów o mnie :D
@@ -45,11 +45,12 @@ class About extends React.Component {
 
           <div className="row">
 
-            <div className="col-lg-11 mx-auto  p-2 mt-5 aboutSection animated fadeIn">
-              <h2 className="text-center w-100 p-2 bg-primary">
+            
+            <div className="col-lg-11 mx-auto mt-5 aboutSection animated slideInUp">
+              
+            <h2 className="text-center w-100 p-2 bg-primary">
                 Edukacja
               </h2>
-
               {/* <ScrollAnimation
                 animateIn="fadeInDown"
                 duration=".7s"
@@ -78,7 +79,7 @@ class About extends React.Component {
                 animateOnce="true"> */}
 
 
-                <div className="row mt-3">
+                <div className="row mt-1">
                   <div className="col-11 mx-auto animated">
                     <div className=" text-dark p-2 ">
                       <h3 className="text-primary"> 2012-2015 Liceum </h3>
@@ -104,7 +105,7 @@ class About extends React.Component {
           {/* Row */}
           <div className="row">
 
-            <div className="col-lg-11 mx-auto p-2  aboutSection">
+            <div className="col-lg-11 mx-auto aboutSection animated slideInUp">
               <h3 className="text-center w-100 p-2 bg-primary">
                 Zainteresowania
 
