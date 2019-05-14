@@ -8,7 +8,7 @@ class CV extends Component {
            <div className="row mainCvRow mt-5 mb-5">
                 <div className="col-lg-1"></div>
 
-                <div className="col-lg-3 order-sm-2 p-0 cvLeft">
+                <div className="col-lg-3 p-0 cvLeft">
                     
                     {/* Image */}
                     <div className="cvAvatar">
@@ -41,39 +41,35 @@ class CV extends Component {
                             i dobrze się bawić.
 
                         </p>
+
+                        <p className="text-light pl-4">
+                            Cenię sobie punktualność i
+                            sumienność. Nie rzucam słów na
+                            wiatr i nie boję się wyzwań.
+                        </p>
                     </div>
 
                     {/* Skills */}
                     <div className="cvSkills pb-5">
                     
-                        <h2 className="pl-4 text-secondary">Umiejętności</h2>
+                        <h2 className="pl-4 text-secondary">Hobby</h2>
 
-                        <div className="row pl-4 text-light">
-                            <div className="col-8">JavaScript:</div>
-                            <div className="col-3">90%</div>
-                        </div>
-                        <div className="row pl-4 text-light">
-                            <div className="col-8">Node JS:</div>
-                            <div className="col-3">70%</div>
-                        </div>
-                        <div className="row pl-4 text-light">
-                            <div className="col-8">React JS</div>
-                            <div className="col-3">90%</div>
-                        </div>
-                        <div className="row pl-4 text-light">
-                            <div className="col-8">Angular 4</div>
-                            <div className="col-3">50%</div>
-                        </div>
-                        <div className="row pl-4 text-light">
-                            <div className="col-8">jQuery</div>
-                            <div className="col-3">70%</div>
-                        </div>
+                        <p className="text-light pl-4">
+                            Oprócz programowania zawsze
+                            pasjonowała mnie astrofizyka.
+                            Jestem na bieżąco z nowinkami
+                            ze świata nauki. Lubię dbać o
+                            kondycje fizyczną i umysłową.
+                            Trenuję na siłowni, jeżdżę na
+                            rowerze, gram w piłkę nożną
+                            (amatorsko), sporo czytam. 
+                        </p>
 
                     </div>
 
                 </div>
                 
-                <div className="col-lg-8 order-sm-1 bg-light position-relative">
+                <div className="col-lg-8 bg-light position-relative">
                     <div className="title">
                     
                     <h1 className="text-dark text-center font-weight-bold mt-2 cvTitle">
@@ -120,21 +116,20 @@ class CV extends Component {
                             Edukacja
                         </h1>
 
-                        <h3 className="text-secondary">
+                        {/* <h3 className="text-secondary">
                            Studia II stopnia ( 2019 - obecnie )
                         </h3>
 
                         <p className="text-secondary">
                         
                            Studia II stopnia podjąłem na Politechnice Krakowskiej
-                        </p>
+                        </p> */}
 
                         <h3 className="text-secondary">
                            Studia I stopnia ( 2015 - 2019 )
                         </h3>
 
-                        <p className="text-secondary">
-                        
+                        <p className="text-secondary">                        
                            Studia podjąłem w Państwowej Wyższej Szkole Zawodowej w Tarnowie
                         </p>
 
@@ -149,6 +144,64 @@ class CV extends Component {
 
                         </p>
                    
+                    </div>
+
+                    <div className="cvSkills mt-4 pl-5">
+                        <h1 className="text-dark">
+                            Umiejętności
+                        </h1>
+
+                        <h3 className="text-secondary">
+                            Front-end
+                        </h3>
+
+                        <p className="text-secondary">
+                        Bardzo dobra znajomość HTML5 i CSS3 w tym framework
+                        Bootstrap. Podstawowa znajomość Semanthic UI.
+                        Bardzo dobra znajomość JavaScript w tym framework ReactJS,
+                        jQuery oraz podstawowa znajomość Angular 4
+                        </p>
+
+                        <h3 className="text-secondary">
+                            Back-end
+                        </h3>
+
+                        <p className="text-secondary">
+                        Dobra znajomość NodeJS w tym biblioteka Express. Podstawowa
+                        znajomość PHP oraz 
+                        <br/> JAVA ( spring boot). Podstawowa znajomość języka Python.
+                        </p>
+
+                        <h3 className="text-secondary">
+                            Database
+                        </h3>
+
+                        <p className="text-secondary">
+                            Dobra znajomość PostgreSQL oraz MySql. Dobra znajomość
+                            MongoDB. Do obsługi baz wykorzystuje PgAdmin oraz Xampp.
+                        </p>
+
+                        <h3 className="text-secondary">
+                            Wykorzystywane narzędzia
+                        </h3>
+
+                        <p className="text-secondary">
+                            Do pracy używam Visual Studio Code.
+                            Potrafię obsługiwać system kontroli wersji GitHub oraz Bitbucket.
+                            Umiem pracować z programami InteliJ oraz WebStorm.
+                            Jestem zaznajomiony z systemami platformą Digital Ocean oraz
+                            Nginx.
+                        </p>
+
+                        <h3 className="text-secondary">
+                            Dodatkowe umiejętności
+                        </h3>
+
+                        <p className="text-secondary">
+                            Umiejętność pracy w zespole, zdolności komunikacyjne.
+                            Znajomość pakietu Microsoft Office. Prawo jazdy kategorii B.
+                        </p>
+
                     </div>
 
 
