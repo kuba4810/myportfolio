@@ -20,7 +20,7 @@ class Portfolio extends React.Component{
                     <div className="imgHolder item2">
                         <img src={require("../images/pt_silownie_info.png")} alt=""/>
                             <div className="overlay">                               
-                                <a href="http://www.suszkwiatowy.pl/Silownie" target="_blank">Odwiedź Siłownie Info</a>
+                                <a href="https://immense-garden-10566.herokuapp.com/" target="_blank">Odwiedź Siłownie Info</a>
                             </div> 
                     </div>
                     <div className="description item3">
@@ -29,7 +29,7 @@ class Portfolio extends React.Component{
                         personalnych którzy oferują treningi personalne, diety oraz porady specjalistyczne. Forum dyskusyjne pozwala 
                         wymienić się wiedzą z innymi , oraz spytać o opinie.
                     </div>
-                    <div className="websiteLink item4"> <a href="http://www.suszkwiatowy.pl/Silownie" target="_blank"> Odwiedź witryne </a> <i class="fas fa-arrow-right"></i> </div>
+                    <div className="websiteLink item4"> <a href="https://immense-garden-10566.herokuapp.com/" target="_blank"> Odwiedź witryne </a> <i class="fas fa-arrow-right"></i> </div>
                 </div>
 
                 <div className="pt-item pt-grid animated fadeIn" style={styleRight}>
@@ -37,7 +37,7 @@ class Portfolio extends React.Component{
                     <div className="imgHolder item2">
                         <img src={require("../images/pt_notes.png")} alt=""/>                        
                         <div className="overlay">                               
-                                <a href="http://www.lambert.pl" target="_blank">Odwiedź Notatki</a>
+                                <a href="https://immense-garden-10566.herokuapp.com/" target="_blank">Odwiedź Notatki</a>
                             </div>                      
                     </div>
                     <div className="description item3">
@@ -48,7 +48,7 @@ class Portfolio extends React.Component{
                         Kolorowe notatki z etykietami oraz kategoriami umożliwia w łatwy sposób zaplanować Twój dzień.
 
                     </div>
-                    <div className="websiteLink item4"> <a href="http://www.lambert.pl" target="_blank"> Odwiedź witryne </a> <i class="fas fa-arrow-right"></i> </div>
+                    <div className="websiteLink item4"> <a href="https://immense-garden-10566.herokuapp.com/" target="_blank"> Odwiedź witryne </a> <i class="fas fa-arrow-right"></i> </div>
                 </div>
 
                   <div className="pt-item pt-grid animated fadeIn" style={styleRight}>
@@ -56,14 +56,14 @@ class Portfolio extends React.Component{
                     <div className="imgHolder item2">
                         <img src={require("../images/pt_foto_lambert.png")} alt=""/>                        
                         <div className="overlay">                               
-                                <a href="http://www.lambert.pl" target="_blank">Odwiedź Foto Lambert</a>
+                                <a href="https://immense-garden-10566.herokuapp.com/" target="_blank">Odwiedź Foto Lambert</a>
                             </div>                      
                     </div>
                     <div className="description item3">
                         Foto Lambert - strona fotografa. Oferuje profesjonalną sesję zdjęciową , wywoływanie zdjęć, nagrywanie filmów i zdjęć.
                         Dostępna jest również wypożyczalnia sprzętu multimedialnego.
                     </div>
-                    <div className="websiteLink item4"> <a href="http://www.lambert.pl" target="_blank"> Odwiedź witryne </a> <i class="fas fa-arrow-right"></i> </div>
+                    <div className="websiteLink item4"> <a href="https://immense-garden-10566.herokuapp.com/" target="_blank"> Odwiedź witryne </a> <i class="fas fa-arrow-right"></i> </div>
                 </div>
 
 
