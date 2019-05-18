@@ -19,7 +19,7 @@ class CV extends Component {
 
                     <div className="cvAbout">
                     
-                        <h2 className="pl-4 text-secondary">O mnie</h2>
+                        <h2 className="pl-4 cvAboutHeader">O mnie</h2>
 
                         <p className="text-light pl-4">
                         Jestem osobą o wielu <br/>
@@ -52,7 +52,7 @@ class CV extends Component {
                     {/* Skills */}
                     <div className="cvSkills pb-5">
                     
-                        <h2 className="pl-4 text-secondary">Hobby</h2>
+                        <h2 className="pl-4 cvAboutHeader">Hobby</h2>
 
                         <p className="text-light pl-4">
                             Oprócz programowania zawsze
@@ -63,6 +63,23 @@ class CV extends Component {
                             Trenuję na siłowni, jeżdżę na
                             rowerze, gram w piłkę nożną
                             (amatorsko), sporo czytam. 
+                        </p>
+
+                        <h2 className="pl-4 cvAboutHeader">Technologie</h2>
+                        <p className="text-light pl-4">
+                            HTML, CSS <br/>
+                            JavaScript, ReactJS <br/>
+                            NodeJS, Express <br/>
+                            PostgreSQL, MongoDB
+                        </p>
+
+                        <h2 className="pl-4 cvAboutHeader">Narzędzia</h2>
+                        <p className="text-light pl-4">
+                            Visual Studio Code <br/>
+                            Github <br/>
+                            WebStorm <br/>
+                            PgAdmin Digital <br/>
+                            Ocean
                         </p>
 
                     </div>
@@ -97,6 +114,19 @@ class CV extends Component {
 
                         <h3 className="text-secondary">
                             Praktyki zawodowe ( czerwiec - wrzesień 2018 )
+                        </h3>
+
+                        <p className="text-secondary">
+                        
+                           Odbyłem praktyki w firmie Apzilla. <br/>
+                           Brałem udział w tworzeniu oprogramowania z użyciem technologii webowych. <br/>
+                           Razem z zespołem stworzyliśmy aplikacje.
+
+                        </p>
+
+
+                        <h3 className="text-secondary">
+                            Praca dorywcza w Anglii (lipiec - wrzesień 2018) 
                         </h3>
 
                         <p className="text-secondary">
@@ -146,7 +176,7 @@ class CV extends Component {
                    
                     </div>
 
-                    <div className="cvSkills mt-4 pl-5">
+                    <div className="cvSkills mt-4 pl-5 pb-5">
                         <h1 className="text-dark">
                             Umiejętności
                         </h1>
@@ -181,7 +211,7 @@ class CV extends Component {
                             MongoDB. Do obsługi baz wykorzystuje PgAdmin oraz Xampp.
                         </p>
 
-                        <h3 className="text-secondary">
+                        {/* <h3 className="text-secondary">
                             Wykorzystywane narzędzia
                         </h3>
 
@@ -191,7 +221,7 @@ class CV extends Component {
                             Umiem pracować z programami InteliJ oraz WebStorm.
                             Jestem zaznajomiony z systemami platformą Digital Ocean oraz
                             Nginx.
-                        </p>
+                        </p> */}
 
                         <h3 className="text-secondary">
                             Dodatkowe umiejętności
