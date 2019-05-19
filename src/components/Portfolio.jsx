@@ -21,6 +21,7 @@ class Portfolio extends React.Component{
                         <img src={require("../images/pt_silownie_info.png")} alt=""/>
                             <div className="overlay">                               
                                 <a href="https://immense-garden-10566.herokuapp.com/" target="_blank">Odwiedź Siłownie Info</a>
+                                <a href="https://github.com/kuba4810/gyms" className="mt-2" target="_blank"> GitHub </a>
                             </div> 
                     </div>
                     <div className="description item3">
@@ -38,6 +39,7 @@ class Portfolio extends React.Component{
                         <img src={require("../images/pt_notes.png")} alt=""/>                        
                         <div className="overlay">                               
                                 <a href="https://immense-garden-10566.herokuapp.com/" target="_blank">Odwiedź Notatki</a>
+                                <a href="https://github.com/kuba4810/notes" className="mt-2" target="_blank"> GitHub </a>
                             </div>                      
                     </div>
                     <div className="description item3">
@@ -51,7 +53,7 @@ class Portfolio extends React.Component{
                     <div className="websiteLink item4"> <a href="https://immense-garden-10566.herokuapp.com/" target="_blank"> Odwiedź witryne </a> <i class="fas fa-arrow-right"></i> </div>
                 </div>
 
-                  <div className="pt-item pt-grid animated fadeIn" style={styleRight}>
+                  {/* <div className="pt-item pt-grid animated fadeIn" style={styleRight}>
                     <div className="titleBar item1">Foto Lambert</div>
                     <div className="imgHolder item2">
                         <img src={require("../images/pt_foto_lambert.png")} alt=""/>                        
@@ -64,7 +66,7 @@ class Portfolio extends React.Component{
                         Dostępna jest również wypożyczalnia sprzętu multimedialnego.
                     </div>
                     <div className="websiteLink item4"> <a href="https://immense-garden-10566.herokuapp.com/" target="_blank"> Odwiedź witryne </a> <i class="fas fa-arrow-right"></i> </div>
-                </div>
+                </div> */}
 
 
                  {/* <div className="pt-item pt-grid animated fadeIn"  style={styleLeft}>
